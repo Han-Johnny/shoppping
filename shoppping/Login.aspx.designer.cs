@@ -24,30 +24,39 @@ namespace shoppping
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Login_Bt 控制項。
+        /// user 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Login_Bt;
+        protected global::System.Web.UI.WebControls.TextBox user;
 
         /// <summary>
-        /// Register_Bt 控制項。
+        /// passwd 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Register_Bt;
+        protected global::System.Web.UI.WebControls.TextBox passwd;
 
         /// <summary>
-        /// VerifyLb 控制項。
+        /// Button1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label VerifyLb;
+        protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Label1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

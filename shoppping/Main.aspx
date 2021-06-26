@@ -45,7 +45,7 @@
                 購物網站
             </p>
             <p align="right" valign = "down">
-                <a href="/Login">登入</a> / <a href="/Register">註冊</a>
+                <asp:Literal ID="Literal1" runat="server"><a href="/Login">登入</a> / <a href="/Register">註冊</a></asp:Literal>
             </p>
         </div>
         <div class="event" align="center" >

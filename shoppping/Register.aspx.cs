@@ -92,7 +92,7 @@ namespace shoppping
                     Label6.Text = "電子信箱";
                     Label6.ForeColor = Color.Black;
                 }
-                if(passwd2.Text != passwd.Text)
+                if (passwd2.Text != passwd.Text)
                 {
                     Label3.Text = "*再次輸入密碼";
                     Label3.ForeColor = Color.Red;

@@ -11,7 +11,11 @@ namespace shoppping
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["onlogin"] == null)
+            {
+                Response.Write("<script>alert('請先登入！')</script>");
+                Server.Transfer("Login.aspx");
+            }
         }
 
         protected void clear_Click(object sender, EventArgs e)

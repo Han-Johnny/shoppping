@@ -20,20 +20,20 @@
             </tr>
             <tr>
                 <td align="center" valign="center">
-                帳號：<input type="text" id="user" name="user" value="" style="width:160px">
+                帳號：<asp:TextBox ID = "user" name = "user" style="width:160px" runat="server"></asp:TextBox>
                 <br>
                 <br>
-                密碼：<input type="password" id="passwd" name="passwd" value="" style="width:160px">
+                密碼：<asp:TextBox ID="passwd" type="password" name="passwd" style="width:160px" runat="server"></asp:TextBox>
                 <br>
-                <br>                
-                <asp:Button ID="Login_Bt" runat="server" Text="登入" Width="80px" OnClick="Login_Bt_Click" />
-                &nbsp                
-                <asp:Button ID="Register_Bt" runat="server" Text="註冊" Width="80px" />
                 <br>
-                <asp:Label ID="VerifyLb" runat="server"></asp:Label>
+                <br>
+                <input type="submit" value="登入" style="width: 80px" />
+                &nbsp
+                <asp:Button ID="Button1" runat="server" name="Register" Text="註冊" style="width:80px" OnClick="Button1_Click"/>
+                <br>
+                <asp:Label ID="Label1" runat="server" Text="" Font-Size="16px" ForeColor="Red"></asp:Label>
                 </td>
             </tr>
-            
         </table>
         <p align="center">
             <a href="Main">返回首頁</a>

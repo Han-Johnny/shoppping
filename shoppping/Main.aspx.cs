@@ -11,7 +11,14 @@ namespace shoppping
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["onlogin"] != null && Session["onlogin"].ToString() == "1")
+            {
+                Literal1.Text = "<a href='/Member'>" + Session["user"].ToString() + "</a> / <a href='/Logout'>登出</a>";
+            }
+            else
+            {
+                Literal1.Text = "<a href='/Login'>登入</a> / <a href='/Register'>註冊</a>";
+            }
         }
 
         protected void Button4_Click(object sender, EventArgs e)
